@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    vertical-align: top;
+}
+body {
+    font-family: "'SUIT-Regular'";
+}
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrap:after, ul:after, .cl:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.blind {
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    left: -9999px;
+}
+header {
+    height: 160px;
+    margin: 0 auto;    
+}
+header h1 {
+    padding-top: 28px;
+}
+header .a {
+    position: absolute;
+    top: 100px;
+    right: 0;    
+}
+header .a li {
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    margin-left: 60px;
+    font-size: 20px;
+}
+header .b {
+    position: absolute;
+    top: 34px;
+    right: 0;    
+}
+header .b li {
+    float: left;
+    margin-left: 30px; 
+}
+header .a li a:link, header .a li a:visited {
+    color: #000;    
+} 
+header .a li a:hover, header .a li a:active, header .a li a:focus {
+    color: #f00;
+}
+/* .blank {
+    height: 160px;
+} */
+#main {
+    background: #eee;
+}
+#main .slide {
+    background: #ffa7a7;
+}
+#main .slide article {
+    position: absolute;    
+    top: 100px;
+    left: 0px;
+    color: #000;
+}
+#main .slide article h3 {
+    font-size: 43px;
+    font-weight: normal;
+}
+#main .slide article p:first-child {
+    font-size: 20px;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+#main .slide article p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+#main .slide ul {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+#main .slide ul li {
+    margin: 0 5px;    
+} 
+#main .slide ul li a {
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border-radius: 12px;
+    display: block;
+    text-indent: 30px;
+    overflow: hidden;
+}
+#main .slide ul li.select a:nth-child {
+    background: #000;
+}
+#main .slide > a {
+    position: absolute;
+    top: calc(50% - 12px);
+}
+
+

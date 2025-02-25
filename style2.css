@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    vertical-align: top;
+}
+body {
+    font-family: 'SUIT', sans-serif;
+    font-size: 16px;
+    color: #666;
+}
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrap:after, ul:after, .cl:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.fl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fl:after {
+    display: none;
+}
+.blind {
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    left: -9999px;
+}
+header {
+    background: #ccc;
+    padding: 30px 0;
+}
+header .wrap {
+    background: #ccc;
+}
+header .snb {
+    background: #cfc;
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+header .snb li {
+    float: left;
+    margin-left: 24px;
+}
+header .gnb {
+    background: #ccf;
+    position: absolute;
+    right: 0;
+    top: 76px;
+}
+header .gnb li {
+    float: left;
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: #000;
+}
+header .gnb li a:link, header .gnb li a:visited {
+    color: #000;    
+} 
+header .gnb li a:hover, header .gnb li a:active, header .gnb li a:focus {
+    color: #f00;
+}
+#main {
+    background: #eee url(../images/mainimg.jpg) no-repeat center;
+    color: #000;
+}
+#main .wrap {
+    height: 480px;
+}
+#main h3 {
+    padding-top: 120px;
+    font-size: 18px;
+}
+#main dl {
+    margin-top: 20px;
+}
+#main dl dt {
+    font-weight: 700;
+    font-size: 46px;
+}
+#main dl dd {
+    margin-top: 50px;
+    line-height: 1.8;
+}
+#main ul {
+    margin: 0 15px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+}
+#main ul li a {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    display: block;
+    background: #ccc;
+    text-indent: 30px;
+    overflow: hidden;
+}
+#main ul li.select a {
+    background: #000;
+}
+#cont {
+    padding: 50px 0 60px;
+}
+#cont h3 {
+
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+#cont .part1 ul li {
+    float: left;
+    width: 300px;
+    margin-right: 50px;
+    border-bottom: 3px solid #000; 
+    padding-bottom: 20px;   
+}
+#cont .part1 ul li:last-child {
+    margin-right: 0;   
+}
+#cont .part1 ul li dl {
+    margin-top: 24px;
+}
+#cont .part1 ul li dl dt {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+#cont .part1 ul li dl dd {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+#cont .part2 {
+    margin-top: 60px;
+    background: #ffc;
+}
+#cont .part2 div {
+    float: left;
+}
+#cont .part2 div:first-child {
+    width: 650px;
+}
+#cont .part2 div:last-child {
+    width: 300px;
+    margin-left: 50px;
+    border-bottom: 1px solid #000;
+    height: 192px;
+    box-sizing: border-box;
+}
+#cont .part2 div:first-child h3 {
+    position: absolute;
+}
+#cont .part2 div ul {
+    background: #cfc;
+}
+#cont .part2 div ul li {
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#cont .part3 {
+    margin-top: 60px;
+}
+#cont .part3 article {
+    float: left;
+    width: 300px;
+    margin-right: 50px;
+    background: #ccc;
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+}
+#cont .part3 article:last-child {
+    margin-right: 0;
+}
+#cont .part3 article p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+#cont .part3 article > a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+footer {
+    background: #000;
+    color: #ccc;
+    padding: 50px 0;
+}
+footer .wrap {
+}
+footer .link li {
+    float: left;
+}
+footer .link li {
+    content: "｜";
+    margin: 0 10px;
+}
+footer .link li:last-child:after {
+    display: none;
+}
+footer address {
+    margin-top: 20px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.6;
+}
+footer .sns {
+    position: absolute;
+    right: 0;
+    top: 0;    
+}
+footer .sns li {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;    
+}
+
+    
